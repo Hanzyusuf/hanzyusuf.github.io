@@ -1,0 +1,39 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template for showcase items</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/icons-style.css">
+</head>
+
+<!-- showcase-template.html -->
+
+<div class="showcase-section">
+    <div class="section-title-holder">
+        <div class="section-title">
+            <h3>{{ sectionTitle }}</h3>
+            <div class="divider"></div>
+        </div>
+    </div>
+
+    <!-- Repeat the following structure for each project in the projects array -->
+    <div class="app-container">
+        <img class="app-image" src="{{ imageSrc }}" alt="{{ title }} Image">
+        <div class="app-details">
+            <h2>{{ title }}</h2>
+            <p>{{ description }}</p>
+            <a href="{{ link }}" target="_blank">Link</a>
+
+            <!-- Logos section -->
+            <div class="tech-logos">
+                <!-- Loop through techLogos and create image elements -->
+                {% for logo in techLogos %}
+                    <img class="tech-logo" src="{{ logo }}" alt="{{ extractTechNameFromLogo(logo) }}">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- End of project structure -->
+
+</div>

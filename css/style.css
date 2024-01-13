@@ -6,10 +6,12 @@ html, body {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Garamond, 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    /* background-image: url("https://img.freepik.com/free-vector/line-background-wave-gradient-template-design_483537-5082.jpg?w=1380&t=st=1705081460~exp=1705082060~hmac=ed4a4421b02bb52a304acf89bfec458fa6c461cf489cce25ba3288a625d58353");
+    background-size: cover; */
     display: flex;
     flex-direction: column;
 }
@@ -24,6 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .avatar {
@@ -65,44 +68,120 @@ body {
 
 /* Showcase styling */
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
 .showcase {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 16px 0px;
+}
+
+.showcase-section {
+    margin-bottom: 40px;
+    /* display: flex;
+    flex-wrap: wrap; */
     justify-content: center;
-    padding: 20px;
-    flex-grow: 1;
+    align-items: center;
+    text-align: center;
+    
 }
 
-.category {
-    margin-bottom: 0px;
+.section-title-holder {
+    text-align: center;
+    display: block;
+    margin: 80px 16px 16px 16px;
 }
 
-.app-container {
-    max-width: 280px; /* Set your desired maximum width */
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.section-title h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 0px;  /* Remove margin for h3 */
+    margin: 0px 60px 12px 60px;
+}
+
+.section-title .divider {
     width: 100%;
-    height: 380px;
+    height: 2px;
+    background-color: #3498db;
+    margin: 0 auto 0px;
+}
+
+/* .showcase-section h2 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+} */
+
+/* .app-container {
+    max-width: 180px;
+    width: 100%;
+    height: 450px;
     margin: 10px 20px 10px 20px;
     background-color: #fff;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
 }
 
 .app-image {
-    width: 100%;
-    /* height: 75%; */
-    max-height: 60%;
-    /* aspect-ratio: 5 / 4; */
+    width: 98%;
+    aspect-ratio: 1/1;
 }
 
 .app-details {
     padding: 0px 12px 0px 12px;
+} */
+
+.app-container-outer {
+    display: inline-block;
+    margin: 12px 8px;
+}
+
+.app-container {
+    width: 320px;
+    margin: 0px 16px;
+    padding: 8px 16px 16px 16px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(245, 244, 244);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.app-details {
+    width: 100%;
+    height: 250px;
+    margin-top: 8px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
+
+    /* flex: 1 */
+}
+
+.app-title {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+
+.app-image {
+    width: 120px;
+    aspect-ratio: 1/1;
 }
 
 /* Footer styling */

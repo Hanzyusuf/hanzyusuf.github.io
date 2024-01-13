@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanzyusuf's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/icons-style.css">
+</head>
+<body>
+
+    <div class="profile">
+        <a href="https://github.com/Hanzyusuf">
+            <img class="avatar" src="images/avatar.png" alt="Hanzyusuf's Avatar">
+        </a>
+
+        <div class="profile-info">
+            <h2>Hanzyusuf</h2>
+            <p class="role">Full Stack Developer | Crafting Code and Games</p>
+            <p class="description">Passionate Full Stack Developer translating ideas into digital experiences at the intersection of technology and creativity.</p>
+            <p class="contact">Feel free to reach out at <a href="mailto:hanzyusuf@gmail.com">hanzyusuf@gmail.com</a> or <a href="mailto:hanzyusuf.work@gmail.com">hanzyusuf.work@gmail.com</a>.<br>Connect with me on <a href="https://www.facebook.com/hanzyusuf99/" target="_blank">Facebook</a> to discuss technology, creativity, or anything in between.</p>
+            <p class="contact">Let's create something extraordinary!</p>
+            <p> 
+                <a href="https://www.facebook.com/hanzyusuf99/" class="fa fa-facebook"></a>
+                <a href="https://www.youtube.com/@hanzyusuf" class="fa fa-youtube"></a>
+                <a href="https://github.com/Hanzyusuf" class="fa fa-github"></a>
+            </p>
+        </div>
+    </div>
+
+    <div class="showcase">
+
+        <!-- Completed Projects -->
+        <div class="showcase-section">
+
+            <div class="section-title-holder">
+                <div class="section-title">
+                    <h3>Completed Projects</h3>
+                    <div class="divider"></div>
+                </div>
+            </div>
+
+            <!-- BullFighting 3D -->
+            <div class="app-container-outer">
+                <div class="app-container">
+                    <img class="app-image" src="images/i_bullfighting.png" alt="BullFighting 3D Image">
+                    <div class="app-details">
+                        <h2>BullFighting 3D: Survival</h2>
+                        <p>Bullfighting game for Android.</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.CreepyTickles.Bullfighting&pcampaignid=web_share" target="_blank">Play Store</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Simple Play Billing -->
+            <div class="app-container-outer">
+                <div class="app-container">
+                    <img class="app-image" src="https://via.placeholder.com/300" alt="Simple Play Billing Image">
+                    <div class="app-details">
+                        <h2>Simple Play Billing</h2>
+                        <p>Unreal Engine plugin for Google Play Billing.</p>
+                        <a href="https://hanzyusuf.gitbook.io/simple-play-billing/" target="_blank">Documentation</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Google Play Utils -->
+            <div class="app-container-outer">
+                <div class="app-container">
+                    <img class="app-image" src="https://via.placeholder.com/300" alt="Google Play Utils Image">
+                    <div class="app-details">
+                        <h2>Google Play Utils</h2>
+                        <p>Unreal Engine plugin exposing user's Google Play account info.</p>
+                        <a href="https://github.com/Hanzyusuf/UE4-GooglePlayUtils" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Android Vita Companion -->
+            <div class="app-container-outer">
+                <div class="app-container">
+                    <img class="app-image" src="https://via.placeholder.com/300" alt="Android Vita Companion Image">
+                    <div class="app-details">
+                        <h2>Android Vita Companion</h2>
+                        <p>Utility to send commands to PS Vita over the network.</p>
+                        <a href="https://github.com/Hanzyusuf/Android-Vita-Companion" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Arduino Led Memory Game (Firmware) -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="Arduino Led Memory Game Firmware Image">
+                <div class="app-details">
+                    <h2>Arduino Led Memory Game (Firmware)</h2>
+                    <p>Basic memory game for Arduino.</p>
+                    <a href="https://github.com/Hanzyusuf/arduino_ledmem_fw" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Arduino Led Memory Game (Android App) -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="Arduino Led Memory Game Android App Image">
+                <div class="app-details">
+                    <h2>Arduino Led Memory Game (Android App)</h2>
+                    <p>Android app for the Arduino Led Memory Game.</p>
+                    <a href="https://github.com/Hanzyusuf/arduino_ledmem_android" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Easy Serial Com (Library) -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="Easy Serial Com Library Image">
+                <div class="app-details">
+                    <h2>Easy Serial Com (Library)</h2>
+                    <p>Arduino library for quick serial communication setup.</p>
+                    <a href="https://github.com/Hanzyusuf/arduino_easy_serial_com" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Fill-A-Doc -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="Fill-A-Doc Image">
+                <div class="app-details">
+                    <h2>Fill-A-Doc</h2>
+                    <p>Open-source project to fill in PDF fields easily.</p>
+                    <a href="https://github.com/Hanzyusuf/fill-a-doc" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- In Progress Projects -->
+        <div class="showcase-section">
+
+            <div class="section-title-holder">
+                <div class="section-title">
+                    <h3>In Progress</h3>
+                    <div class="divider"></div>
+                </div>
+            </div>
+
+            <!-- Cluck n' Cut -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="Cluck n' Cut Image">
+                <div class="app-details">
+                    <h2>Cluck n' Cut</h2>
+                    <p>Butcher chicken cutting game for Android.</p>
+                    <a href="#" target="_blank">Tech: C#, Unity, Blender</a>
+                </div>
+            </div>
+
+            <!-- iKleen Laundry - WebPage, Mobile App, and Backend -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="iKleen Laundry Image">
+                <div class="app-details">
+                    <h2>iKleen Laundry - WebPage, Mobile App, and Backend</h2>
+                    <p>Solution for a local business providing laundry services.</p>
+                    <a href="#" target="_blank">Tech: Frontend - Mobile and Web App - Android Studio, Flutter | Backend - AWS - EC2, S3, MySQL, NodeJS, Express, PM2</a>
+                </div>
+            </div>
+
+            <!-- eLokr -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="eLokr Image">
+                <div class="app-details">
+                    <h2>eLokr</h2>
+                    <p>Startup providing end-to-end security for high-value item transport and transactions.</p>
+                    <a href="#" target="_blank">Tech: Frontend - Mobile App - Android Studio, Flutter | Backend - AWS - EC2, S3, MySQL, NodeJS, Express, PM2</a>
+                </div>
+            </div>
+
+            <!-- DSO Reporting and Tracker - for Xpertek Distributors -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="DSO Reporting and Tracker Image">
+                <div class="app-details">
+                    <h2>DSO Reporting and Tracker - for Xpertek Distributors</h2>
+                    <p>App for a local distributorship business to track and manage DSO's.</p>
+                    <a href="#" target="_blank">Tech: Frontend - Android App - Android Studio, Java | Frontend - Web App - HTML, CSS, JS, JQuery | Backend - WAMP Server - PHP, MySQL</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Completed But Forked Projects -->
+        <div class="showcase-section">
+
+            <div class="section-title-holder">
+                <div class="section-title">
+                    <h3>Forked Projects</h3>
+                    <div class="divider"></div>
+                </div>
+            </div>
+
+            <!-- Blender Stairs (Ported for Blender 2.79) -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="Blender Stairs Ported Image">
+                <div class="app-details">
+                    <h2>Blender Stairs (Ported for Blender 2.79)</h2>
+                    <p>Blender addon for creating staircases, ported for Blender 2.79.</p>
+                    <a href="https://github.com/Hanzyusuf/blenderStairs" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <!-- Zelda Navi's Quest for PS Vita (Forked to support 8-axis movement) -->
+            <div class="app-container">
+                <img class="app-image" src="https://via.placeholder.com/300" alt="Zelda Navi's Quest Forked Image">
+                <div class="app-details">
+                    <h2>Zelda Navi's Quest for PS Vita (Forked)</h2>
+                    <p>Zelda fan game ported for PS Vita, modified for 8-axis movement.</p>
+                    <a href="#" target="_blank">Tech: C++, Makefile, CMake</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright &copy; 2023 Hanzyusuf</p>
+    </div>
+
+</body>
+</html>
