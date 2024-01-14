@@ -41,19 +41,19 @@ body {
 }
 
 .role {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bold;
     color: #3498db;
     margin-bottom: 20px;
 }
 
 .description {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .contact, .social {
     margin-top: 0px;
-    font-size: 0.9em;
+    font-size: 1.1em;
 }
 
 .contact a, .social a {
@@ -74,6 +74,8 @@ body {
     text-align: center;
     margin: 16px 0px;
 }
+
+/* Showcase section and divider */
 
 .showcase-section {
     margin-bottom: 40px;
@@ -111,78 +113,120 @@ body {
     margin: 0 auto 0px;
 }
 
-/* .showcase-section h2 {
-    font-size: 1.1em;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: center;
+/* Showcase item and card */
+
+.showcase-item {
+    display: inline-block;
+    position: relative;
+    margin: 4px 4px;
+    padding: 0px 16px;
+
+    border-radius: 16px;
+
+    transition: transform 0.5s, background-color 0.2s linear;
+    -webkit-transition: transform 0.5s, background-color 0.2s linear;
+    -ms-transition: transform 0.5s, background-color 0.2s linear;
+    transition: transform 0.5s, background-color 0.2s linear;
+
+    transform: scale(0.94);
+
+    /* background-color: #3498db; */
+}
+
+.showcase-item:hover {
+    background-color: #d6d6d6;
+    transform: scale(1);
+
+    z-index: 1;
+}
+
+/* .showcase-item:hover .app-image {
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    transition: transform 0.5s;
+
+    transform: scale(1.1);
 } */
 
-/* .app-container {
-    max-width: 180px;
-    width: 100%;
-    height: 450px;
-    margin: 10px 20px 10px 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    text-align: center;
-}
+.card {
+    width: 390px;    
+    height: 320px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
 
-.app-image {
-    width: 98%;
-    aspect-ratio: 1/1;
-}
+    /* overflow: hidden; */
 
-.app-details {
-    padding: 0px 12px 0px 12px;
-} */
-
-.app-container-outer {
-    display: inline-block;
-    margin: 12px 8px;
-}
-
-.app-container {
-    width: 320px;
-    margin: 0px 16px;
-    padding: 8px 16px 16px 16px;
-    border-radius: 8px;
-    overflow: hidden;
-    background-color: rgb(245, 244, 244);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    box-sizing: border-box;
+
+    /* position: relative;
+    top: -50px; */
+    
+    /* z-index: -1; */
+    /* box-sizing: border-box; */
+}
+
+/* .card:hover {
+    height: 350px;
+    -webkit-transition: height 0.5s linear;
+    -ms-transition: height 0.5s linear;
+    transition: height 0.5s linear;
+} */
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+
+    margin: 30px;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+.card-front {
+    background-color: #fff;
+}
+
+.card-back {
+    background-color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
 }
 
 .app-details {
-    width: 100%;
-    height: 250px;
-    margin-top: 8px;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-    text-align: center;
+    padding: 0px 16px;
+    margin-top: 36px;
 
-    /* flex: 1 */
+    /* display: flex;
+    flex-flow: column; */
 }
 
-.app-title {
-    font-family: Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.1rem;
+.card-front .app-details {
+    color: black;
 }
 
-.app-image {
-    width: 120px;
-    aspect-ratio: 1/1;
+.card-back .app-details {
+    color: rgb(0, 0, 0);
 }
+
+/* note: more .app-datails styling in app-details-style.css file */
 
 /* Footer styling */
 
