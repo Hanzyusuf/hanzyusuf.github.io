@@ -231,7 +231,7 @@ function getTemplateHTML() {
                     <div class="card-front">
                         <div class="app-details">
                             <h2 class="app-title">{{ title }}</h2>
-                            <p>{{ description }}</p>
+                            <p class="app-description">{{ description }}</p>
                             <div class="dev-logos">
                                 {{ techLogos }}
                             </div>

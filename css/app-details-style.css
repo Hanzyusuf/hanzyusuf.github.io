@@ -3,6 +3,11 @@
     font-size: 1.1rem;
 }
 
+.app-description {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.96rem;
+}
+
 .app-image {
     width: 160px;
     aspect-ratio: 1/1;
@@ -28,7 +33,6 @@
 
 .link-button {
 	color: #FFFFFF;
-	font-size: 16px;
 	border-radius: 4px;
 	border: solid 1px #000;
 	text-shadow: 1px 1px 0px #000000;
@@ -47,7 +51,7 @@
 	background: #616161;
 }
 .link-button-text {
-    font-size: 16px;
+    font-size: 0.9rem;
 	position: relative;
 	padding: 0px 12px;
     padding-right: 24px;
@@ -74,10 +78,11 @@
     padding: 12px 16px;
     border: 2px solid #FFF;
     overflow: hidden;
-    font-size: 16px;
+    font-size: 0.9rem;
     color: #FFF;
     background: #c93e3e;
     width: 240px;
+    max-width: 90%;
 }
 
 .mail-btn span {
@@ -93,7 +98,7 @@
 
 .mail-btn i {
     display: inline;
-    font-size: 18px;
+    font-size: 0.9rem;
     margin: 0;
     padding-left: 0;
 }
@@ -102,7 +107,7 @@
 .mail-btn:after {
     content: '';
     position: absolute;
-    top: 0.67em;
+    /* top: 0.85em; */
     left: 0;
     width: 100%;
     text-align: center;
@@ -207,7 +212,7 @@
   position: absolute;
   z-index: 1;
   white-space: nowrap;
-  font-size: 13px;
+  font-size: 0.8rem;
 
   left: 50%;
   transform: translateX(-50%);
